@@ -4,7 +4,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-
+  session:
+    store-type: jdbc
   h2:
     console:
       enabled: true
+
+  profiles:
+    include: oauth
