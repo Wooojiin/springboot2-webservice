@@ -50,8 +50,10 @@ deploy:
 
 
 
-# CI 실행 완료 시 메일로 알람
+# CI 실행 완료 시 메일과 슬랙으로 알람
 notifications:
   email:
     recipients:
       - wooojin.an@gmail.com
+  slack: travis encrypt "woojintalk:wnYmDBsDn8RN0DaCXxQY8ZNG"
+
