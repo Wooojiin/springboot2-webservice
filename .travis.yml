@@ -55,5 +55,5 @@ notifications:
   email:
     recipients:
       - wooojin.an@gmail.com
-  slack: travis encrypt "woojintalk:wnYmDBsDn8RN0DaCXxQY8ZNG#workspace" --add notifications.slack
+#  slack: travis encrypt "woojintalk:wnYmDBsDn8RN0DaCXxQY8ZNG#workspace" --add notifications.slack
 
